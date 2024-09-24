@@ -4,7 +4,7 @@ import { sleep } from './utils'
 import { listAllFollowers } from './followers'
 import { block } from './blocks'
 import { isBot } from './bot'
-import headers from './headers.json'
+import headers from './headers'
 
 const followers = await listAllFollowers(
   headers,
